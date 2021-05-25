@@ -127,3 +127,28 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+keys/*
+!keys/.gitkeep
+
+# User Archives
+#users/*
+#!users/.gitkeep
+
+temporary/*
+!temporary/.gitkeep
+
+# DB Migrations
+migrations/*
+!migrations/.gitkeep
+
+# Database
+data-dev.sqlite
+
+# Pycharm
+.idea/*
