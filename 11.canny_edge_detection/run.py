@@ -13,7 +13,7 @@ plt.show()
 gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
 
 # Better to have 1:2 or 1:3 ratio for lower:upper
-lower = 100’
+lower = 100
 upper = 200
 
 edges = cv2.Canny(gray, lower, upper)
